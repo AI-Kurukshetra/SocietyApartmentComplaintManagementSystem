@@ -213,6 +213,7 @@ export default function SubmitComplaintPage() {
   }, [authLoading, profile, serviceId, session]);
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    console.log("Submit handler invoked", { serviceId, assignedStaffId, profile });
     event.preventDefault();
 
     if (!session || !profile || !isSupabaseConfigured) {
@@ -220,11 +221,57 @@ export default function SubmitComplaintPage() {
       return;
     }
 
-    const apartmentId = profile.apartment_id ?? "";
+    let apartmentId = profile.apartment_id ?? profile.apartment?.id ?? "";
 
     if (!apartmentId) {
-      setError("Your profile does not have an apartment assigned yet.");
-      return;
+      const apartmentNumber = profile.apartment_number ?? profile.apartment?.apartment_number;
+
+      if (!apartmentNumber) {
+        setError("Your profile does not have an apartment assigned yet.");
+        return;
+      }
+
+      const supabase = getSupabaseClient();
+      let apartment;
+
+      try {
+        const result = await supabase
+          .from("apartments")
+          .select("id")
+          .eq("society_id", profile.society_id)
+          .eq("apartment_number", apartmentNumber)
+          .maybeSingle();
+
+        apartment = result.data;
+
+        if (result.error) {
+          throw result.error;
+        }
+      } catch (err) {
+        // Some existing schemas may not have a society_id column on apartments.
+        // Fallback to matching only by apartment_number.
+        console.warn("Apartment lookup by society_id failed, falling back to apartment_number only", err);
+
+        const result = await supabase
+          .from("apartments")
+          .select("id")
+          .eq("apartment_number", apartmentNumber)
+          .maybeSingle();
+
+        if (result.error) {
+          setError("Failed to resolve your apartment. Please contact your society admin.");
+          return;
+        }
+
+        apartment = result.data;
+      }
+
+      if (!apartment?.id) {
+        setError("Your profile does not have an apartment assigned yet.");
+        return;
+      }
+
+      apartmentId = apartment.id;
     }
 
     if (!serviceId) {
@@ -466,15 +513,7 @@ export default function SubmitComplaintPage() {
             <div className="mt-6 flex flex-wrap gap-3">
               <button
                 className="btn-primary"
-                disabled={
-                  submitting ||
-                  !services.length ||
-                  staffLoading ||
-                  staffOptions.length === 0 ||
-                  !assignedStaffId ||
-                  !profile?.apartment_id ||
-                  !profile?.apartment_number
-                }
+                disabled={submitting}
                 type="submit"
               >
                 {submitting ? "Submitting..." : "Create Complaint"}
