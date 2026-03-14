@@ -1,0 +1,114 @@
+
+> society-complaint-management@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1718ms
+ ○ Compiling / ...
+ ✓ Compiled / in 6.3s (636 modules)
+ GET / 200 in 6898ms
+ ✓ Compiled in 623ms (303 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3s (347 modules)
+ GET /favicon.ico 200 in 3067ms
+ ○ Compiling /signup ...
+ ✓ Compiled /signup in 673ms (614 modules)
+ GET /signup 200 in 885ms
+   Reload env: .env.local
+ ✓ Compiled in 368ms (614 modules)
+ ✓ Compiled in 182ms (614 modules)
+ ✓ Compiled in 163ms (614 modules)
+ ✓ Compiled /dashboard in 495ms (626 modules)
+ GET /dashboard 200 in 717ms
+ ✓ Compiled /login in 352ms (632 modules)
+ ○ Compiling /submit-complaint ...
+ ✓ Compiled /submit-complaint in 601ms (638 modules)
+ ✓ Compiled in 1674ms (654 modules)
+ GET /dashboard 200 in 160ms
+ GET /dashboard 200 in 57ms
+ ✓ Compiled /favicon.ico in 246ms (369 modules)
+ GET /favicon.ico 200 in 324ms
+ GET /favicon.ico 200 in 12ms
+ ○ Compiling /_error ...
+ GET /dashboard 500 in 46ms
+ GET /dashboard 500 in 64ms
+ GET /dashboard 500 in 533ms
+ GET /dashboard 500 in 16ms
+ GET /dashboard 500 in 18ms
+ GET /dashboard 500 in 747ms
+ GET /dashboard 500 in 30ms
+ GET /dashboard 500 in 24ms
+ GET /_next/static/webpack/b57722cfafa46ae4.webpack.hot-update.json 500 in 747ms
+ GET /dashboard 500 in 258ms
+ GET /dashboard 500 in 75ms
+ GET /_next/static/webpack/b57722cfafa46ae4.webpack.hot-update.json 500 in 494ms
+ GET /_next/static/webpack/b57722cfafa46ae4.webpack.hot-update.json 500 in 15ms
+ GET /dashboard 500 in 34ms
+ GET /dashboard 500 in 17ms
+ GET /dashboard 500 in 25ms
+ ✓ Compiled /_error in 763ms (879 modules)
+ GET /dashboard 200 in 506ms
+ GET /dashboard 200 in 165ms
+ GET /_next/static/webpack/b57722cfafa46ae4.webpack.hot-update.json 404 in 114ms
+ GET /dashboard 200 in 54ms
+ ✓ Compiled in 592ms (893 modules)
+ ✓ Compiled in 437ms (879 modules)
+ GET /dashboard 200 in 231ms
+ GET /dashboard 200 in 35ms
+ ✓ Compiled in 233ms (510 modules)
+ ✓ Compiled in 239ms (510 modules)
+ ✓ Compiled in 291ms (510 modules)
+ ✓ Compiled in 238ms (510 modules)
+ ✓ Compiled in 227ms (510 modules)
+ ✓ Compiled in 194ms (509 modules)
+ ✓ Compiled in 198ms (507 modules)
+ ✓ Compiled in 208ms (507 modules)
+ ✓ Compiled in 427ms (888 modules)
+ ✓ Compiled in 471ms (888 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 538ms (877 modules)
+ GET / 404 in 1002ms
+ GET /_next/static/css/app/layout.css?v=1773468327452 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1773468327452 404 in 65ms
+ GET /_next/static/chunks/app/layout.js 404 in 63ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 62ms
+ GET /dashboard 404 in 61ms
+ GET /_next/static/css/app/layout.css?v=1773468333169 404 in 26ms
+ GET /_next/static/chunks/main-app.js?v=1773468333169 404 in 43ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 42ms
+ GET /_next/static/chunks/app/layout.js 404 in 41ms
+ ✓ Compiled in 2s (888 modules)
+ ✓ Compiled in 254ms (507 modules)
+ ✓ Compiled in 214ms (507 modules)
+ ✓ Compiled in 580ms (890 modules)
+ ✓ Compiled in 638ms (890 modules)
+ ✓ Compiled in 1861ms (890 modules)
+ ✓ Compiled in 1641ms (890 modules)
+ ✓ Compiled in 427ms (508 modules)
+ ✓ Compiled in 889ms (890 modules)
+ ✓ Compiled in 473ms (890 modules)
+ ✓ Compiled in 554ms (890 modules)
+ ✓ Compiled in 430ms (890 modules)
+ ✓ Compiled in 224ms (508 modules)
+ ✓ Compiled in 300ms (508 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 540ms (879 modules)
+ GET / 404 in 1015ms
+ GET /_next/static/css/app/layout.css?v=1773471746777 404 in 46ms
+ GET /_next/static/chunks/app/layout.js 404 in 58ms
+ GET /_next/static/chunks/main-app.js?v=1773471746777 404 in 62ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 59ms
+ ✓ Compiled /favicon.ico in 311ms (415 modules)
+ GET /favicon.ico 200 in 423ms
+ GET / 404 in 138ms
+ GET /_next/static/css/app/layout.css?v=1773471788022 404 in 43ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 51ms
+ GET /_next/static/chunks/main-app.js?v=1773471788022 404 in 55ms
+ GET /_next/static/chunks/app/layout.js 404 in 51ms
+ GET /favicon.ico 200 in 11ms
+ GET / 404 in 42ms
+[?25h

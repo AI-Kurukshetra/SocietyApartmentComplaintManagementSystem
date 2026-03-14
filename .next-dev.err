@@ -1,0 +1,440 @@
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./components/layout/Sidebar.tsx
+Error: 
+  [31mx[0m Unexpected token `aside`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\layout\Sidebar.tsx[0m:32:1]
+ [2m32[0m |   const items = getNavigation(profile?.role);
+ [2m33[0m | 
+ [2m34[0m |   return (
+ [2m35[0m |     <aside className="sticky top-6 h-fit rounded-[28px] border border-slate-200 bg-white/90 p-5 shadow-[0_24px_60px_rgba(15,23,42,0.06)] backdrop-blur">
+    : [31;1m     ^^^^^[0m
+ [2m36[0m |       <div className="rounded-3xl bg-slate-950 px-4 py-4 text-white">
+ [2m37[0m |         <p className="text-xs uppercase tracking-[0.28em] text-slate-300">
+ [2m38[0m |           SocietyFlow
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/layout/Sidebar.tsx
+./components/layout/AppShell.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/ComplaintList.tsx
+Error: Failed to read source code from D:\society-complaint-management\components\complaints\ComplaintList.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/complaints/ComplaintList.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/ComplaintList.tsx
+Error: Failed to read source code from D:\society-complaint-management\components\complaints\ComplaintList.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/complaints/ComplaintList.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/ComplaintList.tsx
+Error: Failed to read source code from D:\society-complaint-management\components\complaints\ComplaintList.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/complaints/ComplaintList.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/ComplaintList.tsx
+Error: Failed to read source code from D:\society-complaint-management\components\complaints\ComplaintList.tsx
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/complaints/ComplaintList.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/complaints/StatusBadge.tsx
+Error: 
+  [31mx[0m Unexpected token `span`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\complaints\StatusBadge.tsx[0m:5:1]
+ [2m 5[0m |   const meta = complaintStatusMeta[status];
+ [2m 6[0m | 
+ [2m 7[0m |   return (
+ [2m 8[0m |     <span
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       className={inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] }
+ [2m10[0m |     >
+ [2m11[0m |       {meta.label}
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/complaints/StatusBadge.tsx
+./components/complaints/ComplaintCard.tsx
+./app/dashboard/page.tsx
+ ⨯ ./components/layout/Sidebar.tsx
+Error: 
+  [31mx[0m Unexpected token `aside`. Expected jsx identifier
+    ,-[[36;1;4mD:\society-complaint-management\components\layout\Sidebar.tsx[0m:32:1]
+ [2m32[0m |   const items = getNavigation(profile?.role);
+ [2m33[0m | 
+ [2m34[0m |   return (
+ [2m35[0m |     <aside className="sticky top-6 h-fit rounded-[28px] border border-slate-200 bg-white/90 p-5 shadow-[0_24px_60px_rgba(15,23,42,0.06)] backdrop-blur">
+    : [31;1m     ^^^^^[0m
+ [2m36[0m |       <div className="rounded-3xl bg-slate-950 px-4 py-4 text-white">
+ [2m37[0m |         <p className="text-xs uppercase tracking-[0.28em] text-slate-300">
+ [2m38[0m |           SocietyFlow
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/layout/Sidebar.tsx
+./components/layout/AppShell.tsx
+./app/dashboard/page.tsx
+ ⨯ ./app/submit-complaint/page.tsx
+Error: 
+  [31mx[0m Unexpected token `AuthGuard`. Expected jsx identifier
+     ,-[[36;1;4mD:\society-complaint-management\app\submit-complaint\page.tsx[0m:128:1]
+ [2m128[0m |   }
+ [2m129[0m | 
+ [2m130[0m |   return (
+ [2m131[0m |     <AuthGuard>
+     : [31;1m     ^^^^^^^^^[0m
+ [2m132[0m |       <AppShell
+ [2m133[0m |         description="Residents can raise new issues against their apartment and route them to the right maintenance stream automatically through service-based assignment."
+ [2m134[0m |         title="Submit Complaint"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/submit-complaint/page.tsx
+ ⨯ ./app/submit-complaint/page.tsx
+Error: 
+  [31mx[0m Unexpected token `AuthGuard`. Expected jsx identifier
+     ,-[[36;1;4mD:\society-complaint-management\app\submit-complaint\page.tsx[0m:128:1]
+ [2m128[0m |   }
+ [2m129[0m | 
+ [2m130[0m |   return (
+ [2m131[0m |     <AuthGuard>
+     : [31;1m     ^^^^^^^^^[0m
+ [2m132[0m |       <AppShell
+ [2m133[0m |         description="Residents can raise new issues against their apartment and route them to the right maintenance stream automatically through service-based assignment."
+ [2m134[0m |         title="Submit Complaint"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/submit-complaint/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/submit-complaint/page.tsx
+Error: 
+  [31mx[0m Unexpected token `AuthGuard`. Expected jsx identifier
+     ,-[[36;1;4mD:\society-complaint-management\app\submit-complaint\page.tsx[0m:128:1]
+ [2m128[0m |   }
+ [2m129[0m | 
+ [2m130[0m |   return (
+ [2m131[0m |     <AuthGuard>
+     : [31;1m     ^^^^^^^^^[0m
+ [2m132[0m |       <AppShell
+ [2m133[0m |         description="Residents can raise new issues against their apartment and route them to the right maintenance stream automatically through service-based assignment."
+ [2m134[0m |         title="Submit Complaint"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/submit-complaint/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\society-complaint-management\.next\server\app\favicon.ico'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/favicon.ico/route' in D:\society-complaint-management\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\society-complaint-management\.next\server\app\favicon.ico\route.js', but to 'Error: Can't resolve '../../../../.next/server/app/favicon.ico/route' in 'D:\society-complaint-management\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/favicon.ico/route (expected D:\society-complaint-management\.next\server\app\favicon.ico\route.js)
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\handle-externals.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\society-complaint-management\.next\server\app\_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\society-complaint-management\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\society-complaint-management\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\society-complaint-management\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\society-complaint-management\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\society-complaint-management\.next\server\app\_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\society-complaint-management\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\society-complaint-management\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\society-complaint-management\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\society-complaint-management\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack-config.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\society-complaint-management\.next\server\app\_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\society-complaint-management\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\society-complaint-management\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\society-complaint-management\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\society-complaint-management\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\society-complaint-management\.next\server\app\_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in D:\society-complaint-management\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\society-complaint-management\.next\server\app\_not-found\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in 'D:\society-complaint-management\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected D:\society-complaint-management\.next\server\app\_not-found\page.js)
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\society-complaint-management\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
